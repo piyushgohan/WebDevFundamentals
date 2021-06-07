@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="player.css" />
+    <title>Player Page</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0a2a8f6cb3.js"crossorigin="anonymous"></script>
+    <script src="./player.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpOipozoFh3PhIB3bLkszynx10CjG9fvKMQdvoEN6mJvS2PodAH4peOcJWuB0Yfv2xafY&usqp=CAU"
+            alt="logo" class="logo-img" />
+        </div>
+        <div id="menu-items-2">
+                <a href="./index.html" class="neon-button menu-button">home</a>
+                <a href="./index.html#h1" class="neon-button menu-button">teams</a>
+                <a href="./index.html#h2" class="neon-button menu-button" >news</a>
+        </div>
+        <div id="menu-items-3">
+                <div id ="search-box">
+                    <i class="fas fa-search search-icon" aria-hidden="true"></i>
+                    <input type="text" name="search" placeholder="Search for teams or players..." id="search-text" />
+                </div>
+                <div>
+                    <button id="btn-players" class="neon-button clickers">create player</button>
+                    <button id="btn-teams" class="neon-button clickers">create team</button>
+                </div>
+        </div>
+    </header>
+    <aside id="aside-1">
+        <i class="fas fa-times close neon-button"></i>
+        <form id="form-1">
+        <label>Name Of Player : </label><br/>
+        <input type="text" name="search" placeholder="player name" value=""
+         class="player-fields" id="n1"/><br/>
+         <label>Image Link : </label><br/>
+        <input type="text" name="search1" placeholder="link" value=""
+         class="player-fields" id="n2"/><br/>
+         <label>Player Description : </label><br/>
+        <input type="text" name="search2" placeholder="description" value=""
+         class="player-fields" id="n3"/><br/>
+         <label>Team : </label><br/>
+        <input type="text" name="search3" placeholder="team" value=""
+         class="player-fields" id="n4"/><br/>
+         <label>Role : </label><br/>
+        <input type="text" name="search4" placeholder="role" value=""
+         class="player-fields" id="n5"/><br/>
+         <label>Playing Status : </label><br/>
+        <input type="text" name="search5" placeholder="status" value=""
+         class="player-fields" id="n6"/><br/>
+         <label>Price : </label><br/>
+        <input type="text" name="search6" placeholder="price is Rs." value=""
+         class="player-fields" id="n7"/><br/><br/>
+         <input type="submit" name="submit" class="submit-btn" id="sub-1"/><br/>
+        </form>
+    </aside>
+    <aside id="aside-2">
+        <i class="fas fa-times close neon-button"></i>
+        <form id="form-2">
+        <label>Team Name : </label><br/>
+        <input type="text" name="search" placeholder="team name" value=""
+         class="player-fields" id="n8"/><br/>
+         <label>key Name: </label><br/>
+        <input type="text" name="search" placeholder="key" value=""
+         class="player-fields" id="n9"/><br/>
+         <label>Championships Won : </label>
+        <input type="text" name="search" placeholder="championship number" value=""
+         class="player-fields" id="n10"/><br/>
+         <label>Team Logo : </label><br/>
+        <input type="text" name="search" placeholder="link of logo" value=""
+         class="player-fields" id="n11"/><br/><br/>
+         <input type="submit" name="submit" class="submit-btn" id="sub-2"/><br/>
+         </form>
+    </aside>
+    <div id="player-container-two">
+        <div id="player-main-two">
+
+        </div>
+        <div>
+            <h3>Information About the Player</h3>
+            <div id="player-details-two">
+                
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <h4>online store</h4>
+            <a class="links" href="/">player profile</a>
+            <a class="links" href="/">team profile</a>
+            <a class="links" href="/">player cost</a>
+            <a class="links" href="/">team value</a>
+        </div>
+        <div>
+            <h4>helpful links</h4>
+            <a class="links" href="./index.html">home</a>
+            <a class="links" href="/">about</a>
+            <a class="links" href="/">contact</a>
+        </div>
+        <div>
+            <h4>partners</h4>
+            <a class="links" href="/">Rajasthan Royals</a>
+            <a class="links" href="/">Mumbai Indians</a>
+            <a class="links" href="/">Kolkata Knight Riders</a>
+            <a class="links" href="/">Delhi Capitals</a>
+            <a class="links" href="/">+ many more</a>
+        </div>
+        <div>
+            <h4>address</h4>
+            <p class="text">building 101</p>
+            <p class="text">central avenue</p>
+            <p class="text">la - 902722</p>
+            <p class="text">united states</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
